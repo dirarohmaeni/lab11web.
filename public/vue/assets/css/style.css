@@ -1,0 +1,23 @@
+body{
+    background:#eef2f7;
+}
+
+.card{
+    border-radius:15px;
+}
+
+.table td{
+    vertical-align:middle;
+}
+
+.btn{
+    margin-right:5px;
+}
+
+textarea{
+    resize:none;
+}
+
+h3,h5{
+    font-weight:bold;
+}
