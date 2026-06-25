@@ -1,3 +1,208 @@
+# 📚 Praktikum Pemrograman Web 2
+## CodeIgniter 4, REST API, VueJS SPA, Authentication & Authorization
+
+![CodeIgniter](https://img.shields.io/badge/Framework-CodeIgniter4-red)
+![VueJS](https://img.shields.io/badge/Frontend-VueJS3-green)
+![Bootstrap](https://img.shields.io/badge/CSS-Bootstrap5-purple)
+![MySQL](https://img.shields.io/badge/Database-MySQL-blue)
+![REST API](https://img.shields.io/badge/API-REST-orange)
+![License](https://img.shields.io/badge/License-Education-success)
+
+---
+
+# 📖 Deskripsi
+
+Repository ini merupakan hasil pengerjaan **Praktikum Pemrograman Web 2** mulai dari **Praktikum 4 sampai Praktikum 14** menggunakan framework **CodeIgniter 4** dan **VueJS**.
+
+Materi yang dipelajari meliputi:
+
+- Routing
+- Controller
+- View
+- Model
+- CRUD Database
+- Upload Gambar
+- Pagination
+- Authentication
+- Authorization
+- AJAX
+- REST API
+- VueJS SPA
+- Vue Router
+- Axios
+- Axios Interceptor
+- Login API
+- Bearer Token
+
+Project ini dikembangkan sebagai media pembelajaran Framework PHP menggunakan konsep MVC (Model View Controller) dan Single Page Application (SPA).
+
+---
+
+# 👨‍🎓 Identitas Mahasiswa
+
+| Keterangan | Isi |
+|------------|-----|
+| Nama | Dira Rohmaeni |
+| Mata Kuliah | Pemrograman Web 2 |
+| Semester | 4 |
+| Framework | CodeIgniter 4 |
+| Frontend | VueJS 3 |
+| Database | MySQL |
+| IDE | Visual Studio Code |
+| Server | XAMPP |
+| API Testing | Postman |
+
+---
+
+# 🛠 Software yang Digunakan
+
+| Software | Fungsi |
+|----------|--------|
+| Visual Studio Code | Code Editor |
+| XAMPP | Apache & MySQL Server |
+| PHP 8 | Bahasa Pemrograman |
+| Composer | Dependency Manager |
+| CodeIgniter 4 | Framework Backend |
+| VueJS 3 | Frontend SPA |
+| Vue Router | Routing SPA |
+| Axios | HTTP Client |
+| Bootstrap 5 | User Interface |
+| MySQL | Database |
+| Postman | Testing REST API |
+| Git | Version Control |
+| GitHub | Repository Project |
+
+---
+
+# 📂 Struktur Folder Project
+
+```
+LAB11_CI
+│
+├── app
+│   │
+│   ├── Config
+│   │   ├── App.php
+│   │   ├── Autoload.php
+│   │   ├── Constants.php
+│   │   ├── Database.php
+│   │   ├── Filters.php
+│   │   ├── Routes.php
+│   │   └── ...
+│   │
+│   ├── Controllers
+│   │   ├── AjaxController.php
+│   │   ├── Artikel.php
+│   │   ├── BaseController.php
+│   │   ├── Home.php
+│   │   ├── Page.php
+│   │   ├── Post.php
+│   │   └── User.php
+│   │
+│   ├── Models
+│   │   ├── ArtikelModel.php
+│   │   ├── KategoriModel.php
+│   │   └── UserModel.php
+│   │
+│   ├── Views
+│   │   ├── artikel
+│   │   ├── layout
+│   │   ├── page
+│   │   ├── user
+│   │   └── ...
+│   │
+│   ├── Filters
+│   │   ├── Auth.php
+│   │   └── ApiAuthFilter.php
+│   │
+│   ├── Database
+│   │   ├── Migrations
+│   │   └── Seeds
+│   │
+│   └── Helpers
+│
+├── public
+│   ├── gambar
+│   ├── index.php
+│   └── favicon.ico
+│
+├── writable
+│
+├── vendor
+│
+├── vue
+│   │
+│   ├── assets
+│   │   │
+│   │   ├── css
+│   │   │   └── style.css
+│   │   │
+│   │   └── js
+│   │       │
+│   │       ├── components
+│   │       │   ├── Home.js
+│   │       │   ├── Artikel.js
+│   │       │   ├── About.js
+│   │       │   └── Login.js
+│   │       │
+│   │       └── app.js
+│   │
+│   └── index.html
+│
+├── database
+│   └── lab_ci4.sql
+│
+├── screenshots
+│   ├── p4-home.png
+│   ├── p5-template.png
+│   ├── p6-crud.png
+│   ├── p7-upload.png
+│   ├── p8-login.png
+│   ├── p9-filter.png
+│   ├── p10-ajax.png
+│   ├── p11-restapi.png
+│   ├── p12-vue.png
+│   ├── p13-crud-vue.png
+│   └── p14-authentication.png
+│
+├── composer.json
+├── composer.lock
+├── spark
+├── .env
+└── README.md
+
+```
+
+---
+
+# 📁 Penjelasan Folder
+
+| Folder | Keterangan |
+|---------|------------|
+| app/Controllers | Berisi seluruh controller aplikasi |
+| app/Models | Berisi model untuk mengakses database |
+| app/Views | Berisi tampilan website |
+| app/Config | Konfigurasi aplikasi CodeIgniter |
+| app/Filters | Filter Authentication & Authorization |
+| app/Database | Migration dan Seeder |
+| public | Public Folder CodeIgniter |
+| writable | Session, Cache dan Log |
+| vendor | Library Composer |
+| vue | Frontend Single Page Application |
+| assets/css | File CSS |
+| assets/js | File JavaScript |
+| assets/js/components | Komponen VueJS |
+| database | File Database SQL |
+| screenshots | Dokumentasi Praktikum |
+
+---
+
+# 🎯 Tujuan Praktikum
+
+Praktikum ini bertujuan untuk mempelajari penerapan Framework CodeIgniter 4 dalam membangun aplikasi web modern menggunakan konsep MVC serta mengintegrasikan REST API dengan VueJS sebagai frontend Single Page Application (SPA). Selain itu, praktikum ini juga membahas implementasi autentikasi, otorisasi, penggunaan Axios, serta pengamanan endpoint menggunakan token.
+
+---
+
 # 📚 Praktikum 5 - Layout, View, dan CSS
 
 ## 📖 Deskripsi
